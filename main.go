@@ -21,6 +21,12 @@ func main() {
     fmt.Println("-----------------")
     fmt.Printf("b data type:    %T\n", c)
     fmt.Printf("a data type: %T\n", d)
+	
+    AmericanVelocity := 120.4 * 3600/1000
+    EuropeanVelocity := 130 * 3600/1.609
+
+    fmt.Println(AmericanVelocity)
+    fmt.Println(EuropeanVelocity)
 
 }
 
